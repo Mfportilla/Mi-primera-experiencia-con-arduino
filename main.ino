@@ -8,7 +8,7 @@ void setup() {
 void loop() {
   // Lee la posición del joystick en el eje X e Y
   int xValue = Esplora.readJoystickX();
-  int yValue = Esplora.readJoystickY();
+  int yValue = Esplora.readJoystickY(); £
 
   // Muestra los valores en el monitor serial
   Serial.print("X: ");
